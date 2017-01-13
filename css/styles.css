@@ -2,3 +2,27 @@ body{
     background-color: orange;
     color: limegreen;
 }
+main{
+    background-color:hotpink;
+    background-image:"/img/maddog.jpg";
+}
+aside{
+    background-color:turquoise;
+}
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+@media(min-width: 800px){
+    main{
+        width:60%;
+        float:left;
+        background-color:turquoise;
+    }
+    aside{
+        width:30%;
+        float:left;
+        background-color:hotpink;
+    }
+}
