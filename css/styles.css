@@ -1,10 +1,10 @@
 body{
     background-color: orange;
     color: limegreen;
+    background-image: url("/img/maddog.jpg");
 }
 main{
     background-color:hotpink;
-    background-image:"img/maddog.jpg";
 }
 aside{
     background-color:turquoise;
